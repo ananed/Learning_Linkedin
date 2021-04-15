@@ -7,7 +7,7 @@ function AppTwo() {
 }
 
 ReactDOM.render(
-    <App />,
+    <App2 authorized={true} />,
   document.getElementById("root")
 );
 
