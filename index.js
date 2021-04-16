@@ -15,6 +15,6 @@ import "./index.css";
 
 // const [,, light] = ["boots", "tents", "headlamp"];
 // console.log(light);
-ReactDOM.render(<App2 authorized={true} />, document.getElementById("root"));
+ReactDOM.render(<App2 authorized={true} login="ananed" />, document.getElementById("root"));
 
 // Si no quiero añadir todo el rato <div> para agregar elementos, uso React.Fragment
